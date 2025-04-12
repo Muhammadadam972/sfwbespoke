@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.pic{
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 300vh;
+    background: white;
+    position: relative;
+    overflow: hidden;
+}
+.logo{
+    width: 70px;
+    border-radius: 50%;
+    top: 5%;
+    left: 10%;
+    position: fixed;
+}
+.open-menu{
+    width: 35px;
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    cursor: pointer;
+    position: fixed;
+}
+.menu-box{
+    width: 80%;
+    background: rgb(231, 228, 228);
+    position: absolute;
+    top: 17%;
+    left: 10%;
+    padding: 50px 100px;
+    transition: 1s;
+    position: fixed;
+}
+.right-link{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+}
+.right-link img{
+    width: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.menu-links a{
+    text-decoration: none;
+    margin: 30px 0px;
+    color: black;
+    font-size: 20px;
+    display: block;
+    width: fit-content;
+}
+.my-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 2rem;
+    text-shadow: 2px 2px 8px black;
+}
+.my-text span{
+    color: goldenrod;
+}
+.list h2, p{
+    text-align: center;
+    color: goldenrod;
+}
+.kaftan{
+    text-align: center;
+}
+.kaftan h1{
+    font-size: 25px;
+    color: goldenrod;
+}
+.kaftan h2{
+    font-size: medium;
+}
+.kaftan span{
+    color: goldenrod;
+}
